@@ -15,6 +15,7 @@ export default function Home() {
     const tl = gsap.timeline();
     tl.fromTo(".image",{x:150, duration:2,delay:5,ease:'elastic'},{x:0,duration:1,delay:5,ease:'elastic'})
     .fromTo('.home-left',{y:-150,duration:1,ease:'bounce'},{y:0,duration:1,ease:'bounce'})
+    .fromTo('.logo',{y:-50,duration:1,ease:'bounce'},{y:0,duration:1,ease:'bounce'})
   },{scope:home})
 
 
@@ -22,7 +23,7 @@ export default function Home() {
     <div  ref={home} className='h-screen bg-white'>
         <div className="w-full flex justify-evenly items-center mt-1 pt-3 pb-3">
           <div className="logo">
-          <IoLogoSnapchat size={45} />
+          <IoLogoSnapchat size={45} className='logo' />
           </div>
           <ul className="flex justify-between items-center gap-6">
 

@@ -10,6 +10,11 @@ function App() {
   return(
     <>
     <Welcome/>
+    <EqSection />
+    <MeetAppSection/>
+    <PrivacySection/>
+    <WorkwithUsSection/>
+    <FooterSection/>
     </>
   )
 }

@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily:{
         spaceGrotesk:["Space Grotesk, sans-serif"],
-        Roboto:['Roboto']
+        Roboto:['Roboto'],
+        Cedarville:['Cedarville Cursive']
       }
     },
   },
