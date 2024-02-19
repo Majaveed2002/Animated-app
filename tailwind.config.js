@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        spaceGrotesk:["Space Grotesk, sans-serif"]
+        spaceGrotesk:["Space Grotesk, sans-serif"],
+        Roboto:['Roboto']
       }
     },
   },

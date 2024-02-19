@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+/* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+  border-radius: 8px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+/* Customize the scrollbar thumb when hovered */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(151, 156, 163, var(--tw-bg-opacity));
+}
+
+li{
+  list-style-type: disc;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}

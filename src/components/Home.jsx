@@ -13,8 +13,8 @@ export default function Home() {
 
   useGSAP(() => {
     const tl = gsap.timeline();
-    tl.fromTo('.home-left',{y:-150,delay:5,duration:1,ease:'bounce'},{y:0,duration:1,delay:5,ease:'bounce'})
-    .fromTo(".image",{x:150,duration:2,ease:'elastic'},{x:0,duration:1,ease:'elastic'})
+    tl.fromTo(".image",{x:150, duration:2,delay:5,ease:'elastic'},{x:0,duration:1,delay:5,ease:'elastic'})
+    .fromTo('.home-left',{y:-150,duration:1,ease:'bounce'},{y:0,duration:1,ease:'bounce'})
   },{scope:home})
 
 
