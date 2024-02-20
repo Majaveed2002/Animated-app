@@ -13,7 +13,7 @@
 
 
 # Installation
-1. git clone https://github.com/Majaveed/Animated-app.git
+1. git clone https://github.com/Majaveed2002/Animated-app.git
 2. cd Animated-app
 3. npm install
 4. npm run dev
